@@ -1,17 +1,3 @@
-//this variable will hold our SpreadsheetId. The spreadsheet id is located in the URL of your spreadsheet 
-//https://docs.google.com/spreadsheets/d/YourSpr34dsh33t-id_is_L0CAT3TED_here/edit#gid=0
-var sheetId = "REPLACE_THIS_WITH_YOUR_SHEET_ID";
-  
-  
-//this variable will call up our speadsheet using the Google Apps Script function.
-//https://developers.google.com/apps-script/reference/spreadsheet/spreadsheet-app#openById(String)
-var ss = SpreadsheetApp.openById(sheetId)
-  
-  
-//this variable will call up the specific sheet by name.
-//https://developers.google.com/apps-script/reference/spreadsheet/spreadsheet#getSheetByName(String)
-var s1 = ss.getSheetByName("Sheet1");
-  
 
 function translate(str){
 	return str.replace(/_AMP_/g, '&').replace(/_QST_/g, '?').replace(/_HSH_/g, '#');
