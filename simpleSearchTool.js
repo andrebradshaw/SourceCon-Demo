@@ -72,7 +72,7 @@ for(i = 0; i<placeHoldArr.length; i++) {
 var saveBtn = document.createElement("button");
 document.getElementById("pop_container").appendChild(saveBtn);
 saveBtn.setAttribute("id", "savebtn_box");
-document.getElementById("savebtn_box").innerText = "send2Sheets";
+document.getElementById("savebtn_box").innerText = "Search Github";
 saveBtn.style.background = "DarkCyan";
 saveBtn.style.border = "1px solid DarkSlateGrey";
 saveBtn.style.width = "100%";
